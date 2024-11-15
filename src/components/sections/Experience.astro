@@ -17,6 +17,10 @@ import Angular from "@/icons/angular.astro";
 import Vue from "@/icons/vue.astro";
 import PHP from "@/icons/php.astro";
 import Laravel from "@/icons/laravel.astro";
+import jQuery from "@/icons/jquery.astro";
+import SQLServer from "@/icons/SqlServer.astro";
+import VBA from "@/icons/vba.astro";
+import Java from "@/icons/java.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -34,6 +38,10 @@ const SKILLS_ICONS: Record<string, any> = {
   Vue,
   PHP,
   Laravel,
+  jQuery,
+  SQLServer,
+  VBA,
+  Java,
 };
 ---
 
@@ -43,6 +51,7 @@ const SKILLS_ICONS: Record<string, any> = {
       work.map(({ name, startDate, endDate, position, summary, responsibilities, achievements, url, skills, location, location_type }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear = endDate != null ? new Date(endDate).getFullYear() : "現在";
+        const hasShowMore = responsibilities.length > 0 || achievements.length > 0;
 
         return (
           <li class="relative print:py-2">
@@ -98,64 +107,68 @@ const SKILLS_ICONS: Record<string, any> = {
                     </div>
                   )}
 
-                  {(responsibilities.length > 0 || achievements.length > 0) && (
-                    <div>
-                      <div
-                        class="relative flex flex-col gap-4 max-sm:!h-auto md:after:absolute md:after:bottom-0 md:after:h-12 md:after:w-full md:after:bg-gradient-to-t md:after:from-skin-hue md:after:content-[''] dark:md:after:to-skin-hue/0 print:!h-auto print:gap-2 print:after:hidden"
-                        x-bind:class="expanded ? 'after:hidden' : ''"
-                        x-show="expanded"
-                        x-collapse.min.50px
-                      >
-                        {responsibilities && (
-                          <div class="flex flex-col gap-1">
-                            <h4>役割:</h4>
-                            <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
-                              {responsibilities.map((responsibility) => (
-                                <li>{responsibility}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                        {achievements && (
-                          <div class="flex flex-col gap-1">
-                            <h4>成果:</h4>
-                            <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
-                              {achievements.map((achievement) => (
-                                <li>{achievement}</li>
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                      </div>
-                      <button x-on:click="expanded = ! expanded" class="group/more flex w-fit cursor-pointer items-center justify-center gap-1.5 text-xs text-skin-muted underline transition-all hover:text-skin-base print:hidden">
-                        <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
-                        <svg
-                          class="h-4 w-4 duration-200 ease-out group-hover/more:translate-y-0.5"
-                          x-bind:class="{ 'rotate-180': expanded }"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <polyline points="6 9 12 15 18 9" />
-                        </svg>
-                      </button>
-                      <ul class="flex flex-wrap gap-2 print:hidden" aria-label="Technologies used">
-                        {skills &&
-                          skills.map((skill) => {
-                            const iconName = skill === "Next.js" ? "Next" : skill;
-                            const Icon = SKILLS_ICONS[iconName];
-                            return (
-                              <li class="flex items-center gap-1 rounded-md border border-solid border-skin-hue/20 bg-skin-button-accent/20 px-2 py-0.5 text-xs text-skin-hue print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-                                {Icon && <Icon />} <span>{skill}</span>
-                              </li>
-                            );
-                          })}
-                      </ul>
+                  {hasShowMore && (
+                    <div
+                      class="relative flex flex-col gap-4 max-sm:!h-auto md:after:absolute md:after:bottom-0 md:after:h-12 md:after:w-full md:after:bg-gradient-to-t md:after:from-skin-hue md:after:content-[''] dark:md:after:to-skin-hue/0 print:!h-auto print:gap-2 print:after:hidden"
+                      x-bind:class="expanded ? 'after:hidden' : ''"
+                      x-show="expanded"
+                      x-collapse.min.50px
+                    >
+                      {responsibilities && (
+                        <div class="flex flex-col gap-1">
+                          <h4>役割:</h4>
+                          <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
+                            {responsibilities.map((responsibility) => (
+                              <li>{responsibility}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                      {achievements && (
+                        <div class="flex flex-col gap-1">
+                          <h4>成果:</h4>
+                          <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
+                            {achievements.map((achievement) => (
+                              <li>{achievement}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                     </div>
+                  )}
+
+                  {hasShowMore && (
+                    <button x-on:click="expanded = ! expanded" class="group/more flex w-fit cursor-pointer items-center justify-center gap-1.5 text-xs text-skin-muted underline transition-all hover:text-skin-base print:hidden">
+                      <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
+                      <svg
+                        class="h-4 w-4 duration-200 ease-out group-hover/more:translate-y-0.5"
+                        x-bind:class="{ 'rotate-180': expanded }"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="6 9 12 15 18 9" />
+                      </svg>
+                    </button>
+                  )}
+
+                  {hasShowMore && (
+                    <ul class="flex flex-wrap gap-2 print:hidden" aria-label="Technologies used">
+                      {skills &&
+                        skills.map((skill) => {
+                          const iconName = skill === "Next.js" ? "Next" : skill;
+                          const Icon = SKILLS_ICONS[iconName];
+                          return (
+                            <li class="flex items-center gap-1 rounded-md border border-solid border-skin-hue/20 bg-skin-button-accent/20 px-2 py-0.5 text-xs text-skin-hue print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+                              {Icon && <Icon />} <span>{skill}</span>
+                            </li>
+                          );
+                        })}
+                    </ul>
                   )}
                 </div>
               </div>
@@ -166,8 +179,8 @@ const SKILLS_ICONS: Record<string, any> = {
     }
   </ul>
 </Section>
-<script src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
 <style>
   li::marker {
