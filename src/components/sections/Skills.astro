@@ -18,41 +18,53 @@ import Kotlin from "@/icons/kotlin.astro";
 import Flutter from "@/icons/flutter.astro";
 import Figma from "@/icons/Figma.astro";
 import Gitlab from "@/icons/Gitlab.astro";
+import Vue from "@/icons/vue.astro";
+import Angular from "@/icons/angular.astro";
+import PHP from "@/icons/php.astro";
+import Laravel from "@/icons/laravel.astro";
+import AstroLogo from "@/icons/astro.astro";
+import Remix from "@/icons/remix.astro";
 
 const SKILLS_ICONS: Record<string, any> = {
-	HTML,
-	CSS,
-	JavaScript,
-	TypeScript,
-	React,
-	Node,
-	MySQL,
-	Git,
-	GitHub,
-	Next,
-	Tailwind,
-	Swift,
-	SwiftUI,
-	Kotlin,
-	Flutter,
-	Figma,
-	Gitlab,
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Swift,
+  SwiftUI,
+  Kotlin,
+  Flutter,
+  Figma,
+  Gitlab,
+  Vue,
+  Angular,
+  PHP,
+  Laravel,
+  AstroLogo,
+  Remix,
 };
 ---
 
-<Section className={Astro.props.className} title="Skills">
-	<ul class="[&>li>svg]:text-skin-hue inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li]:text-sm">
-		{
-			skills.map(({ name }) => {
-				const iconName = name === "Next.js" ? "Next" : name;
-				const Icon = SKILLS_ICONS[iconName];
+<Section className={Astro.props.className} title="スキル">
+  <ul class="inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li>svg]:text-skin-hue [&>li]:text-sm">
+    {
+      skills.map(({ name }) => {
+        const iconName = name.includes(".") ? name.split(".")[0] : name;
+        const Icon = iconName === "Astro" ? AstroLogo : SKILLS_ICONS[iconName];
 
-				return (
-					<li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
-						{Icon && <Icon />} <span>{name}</span>
-					</li>
-				);
-			})
-		}
-	</ul>
+        return (
+          <li class="border-skin-hue/20s bg-skin-button-accent/20s borders border-solids flex items-center gap-1 rounded-md px-2 py-0.5 text-xs text-skin-muted print:border-none print:bg-transparent print:p-0 print:text-zinc-800">
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
