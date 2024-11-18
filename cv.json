@@ -170,6 +170,21 @@
       "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
     },
     {
+      "name": "Next.js",
+      "level": "Beginner",
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+    },
+    {
+      "name": "Astro",
+      "level": "Beginner",
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+    },
+    {
+      "name": "Remix",
+      "level": "Beginner",
+      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
+    },
+    {
       "name": "PHP",
       "level": "Intermediate",
       "keywords": ["Web Development", "Backend", "Server"]
@@ -213,21 +228,6 @@
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": ["Version Control", "Collaboration", "Source Code"]
-    },
-    {
-      "name": "Next.js",
-      "level": "Beginner",
-      "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
-    },
-    {
-      "name": "Astro",
-      "level": "Beginner",
-      "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
-    },
-    {
-      "name": "Remix",
-      "level": "Beginner",
-      "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
     }
   ],
   "languages": [
@@ -257,69 +257,82 @@
       "name": "社内向け業務改善システム",
       "description": "開発メンバーとして新規開発、機能改善、リニューアルのプロジェクトに参画",
       "organization": "(株)Logos&Pathos Consulting ",
+      "workStyle": "業務委託",
       "startDate": "2022-03-01",
-      "endDate": "2024-11-01",
-      "highlights": [
-        "UIやデータモデルの設計や技術調査、フロント側やバッチ処理の実装など",
-        "経験が浅い技術（フレームワーク、ライブラリ、外部API）のキャッチアップ",
-        "TypeScript, Angular, RxJS, Firebase(Google Cloud), Node.js, Sass などを使用"
-      ]
+      "endDate": "2024-11-29",
+      "highlights": ["UIやデータモデルの設計や技術調査、フロント側やバッチ処理の実装など", "経験が浅い技術（フレームワーク、ライブラリ、外部API）のキャッチアップ", "TypeScript, Angular, RxJS, Firebase(Google Cloud), Node.js, Sass ..."]
+    },
+    {
+      "name": "製造業向け業務支援システム",
+      "description": "フロントエンジニアとしてWebアプリのUI構築を担当",
+      "organization": "(株)ギブリー",
+      "workStyle": "業務委託",
+      "startDate": "2024-08-01",
+      "endDate": "2024-10-31",
+      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components ..."]
     },
     {
       "name": "船員労務管理SaaS - Maritime7",
       "description": "フルスタックエンジニアとして労務管理機能の機能改善や新機能実装を担当",
       "organization": "(株)ZABoooN",
+      "workStyle": "業務委託",
       "startDate": "2022-12-01",
-      "endDate": "2024-01-01",
-      "highlights": ["フロントエンド実装、開発環境の改善、API実装、DB設計", "ビジネスサイドのメンバーからの要望をもとに仕様の検討や提案", "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass など"]
+      "endDate": "2024-01-30",
+      "highlights": ["フロントエンド実装、開発環境の改善、API実装、DB設計", "ビジネスサイドのメンバーからの要望をもとに仕様の検討や提案", "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass ..."]
     },
     {
       "name": "カーシェアサイト",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
       "organization": "Ambient Lab(株)",
+      "workStyle": "業務委託",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": ["PMと連携を取りながら開発メンバーとして新機能追加や機能改善などを担当", "UIやFunctionの検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python など"]
+      "highlights": ["PMと連携を取りながら開発メンバーとして新機能追加や機能改善などを担当", "UIやFunctionの検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python ..."]
     },
     {
       "name": "一時保育の検索・予約サービス - あすいく",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
       "organization": "GAOGAO Pte. Ltd.",
+      "workStyle": "業務委託",
       "startDate": "2021-11-01",
-      "endDate": "2022-05-01",
-      "highlights": ["PM1名、エンジニア3名のチームにフルスタックエンジニアとして参画", "起業家と同じチームとしてMVPの設計と実装", "Laravel, Vue.js, Figma, MySQL, Docker など"]
+      "endDate": "2022-05-31",
+      "highlights": ["PM1名、エンジニア3名のチームにフルスタックエンジニアとして参画", "起業家と同じチームとしてMVPの設計と実装", "Laravel, Vue.js, Figma, MySQL, Docker ..."]
     },
     {
       "name": "ストックフォトサービス",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
       "organization": "(株)カイカタ",
+      "workStyle": "業務委託",
       "startDate": "2021-05-01",
-      "endDate": "2021-10-01",
-      "highlights": ["エンジニア3名のチームにフルスタックエンジニアとして参画", "オーナーやメンバーと連携して仕様検討、機能追加、機能改善", "Vue.js, Sass, Laravel, MySQL, Docker など"]
+      "endDate": "2021-10-30",
+      "highlights": ["エンジニア3名のチームにフルスタックエンジニアとして参画", "オーナーやメンバーと連携して仕様検討、機能追加、機能改善", "Vue.js, Sass, Laravel, MySQL, Docker ..."]
     },
     {
       "name": "Webシステムの受託開発",
       "description": "機能改善や新機能実装を担当",
       "organization": "(合)DreamLink",
+      "workStyle": "正社員",
       "startDate": "2020-05-01",
-      "endDate": "2022-03-01",
-      "highlights": ["エンジニア2名（社長と自分）で幅広く開発工程を対応", "駐車場機器と連携するWebシステムやイベント管理を行うWebシステムの開発", "Linux, Apache, MySQL, PHP, JavaScript, jQuery, React など"]
+      "endDate": "2022-03-30",
+      "highlights": ["エンジニア2名（社長と自分）で幅広く開発工程を対応", "駐車場機器と連携するWebシステムやイベント管理を行うWebシステムの開発", "Linux, Apache, MySQL, PHP, JavaScript, jQuery, React ..."]
     },
     {
       "name": "知的財産管理システム - DBBOY/uni",
       "description": "機能改善や新機能実装を担当",
       "organization": "SES",
+      "workStyle": "正社員",
       "startDate": "2019-05-01",
-      "endDate": "2020-04-01",
-      "highlights": ["エンジニア4名のチームにて設計、実装、テストなどを担当", "設計書、テスト仕様書などのドキュメント作成や整備", "Linux, Apache, MySQL, PHP, JavaScript など"]
+      "endDate": "2020-04-29",
+      "highlights": ["エンジニア4名のチームにて設計、実装、テストなどを担当", "設計書、テスト仕様書などのドキュメント作成や整備", "Linux, Apache, MySQL, PHP, JavaScript ..."]
     },
     {
       "name": "SIerの業務系システム",
       "description": "機能改善や新機能実装を担当",
       "organization": "SES",
+      "workStyle": "正社員",
       "startDate": "2017-11-01",
-      "endDate": "2019-04-01",
-      "highlights": ["病院向け薬剤管理システムや、銀行向け業務システムの保守開発チームに参画", "画面操作のテストや簡単なプログラムの改修等を担当", "Java, VB, JavaFX, JUnit, SQLServer など"]
+      "endDate": "2019-04-30",
+      "highlights": ["病院向け薬剤管理システムや、銀行向け業務システムの保守開発チームに参画", "画面操作のテストや簡単なプログラムの改修等を担当", "Java, VB, JavaFX, JUnit, SQLServer ..."]
     }
   ],
   "developments": [
