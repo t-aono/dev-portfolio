@@ -12,19 +12,21 @@ dayjs.extend(duration);
 <Section className={Astro.props.className} title="チーム開発経験">
   <div class="grid grid-cols-1 gap-3 print:flex print:flex-col">
     {
-      projects.map(({ description, organization, startDate, endDate, highlights, name }, index) => {
+      projects.map(({ description, organization, workStyle, startDate, endDate, highlights, name }, index) => {
         const startMonth = dayjs(startDate).format("YYYY/MM");
         const endMonth = dayjs(endDate).format("YYYY/MM");
-        const period = dayjs.duration(dayjs(endDate).diff(dayjs(startDate))).format("Y年Mヶ月");
+        const duration = dayjs.duration(dayjs(endDate).diff(dayjs(startDate)));
+        const period = (duration.years() ? `${duration.years()}年` : "") + (duration.months() + 1) + "ヶ月";
 
         return (
           <div role="contentinfo" class="grid-span-1 relative flex flex-col rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted">
             <div class="flex items-center justify-between space-x-[10px]">
               <div class="flex items-center gap-2">
-                {index + 1}.
                 <Folder />
                 <div class="flex items-center gap-[6px]">
-                  <span>{name}</span>
+                  <span>
+                    {index + 1}. {name}
+                  </span>
                 </div>
               </div>
             </div>
@@ -34,7 +36,9 @@ dayjs.extend(duration);
                 return <li>{highlight}</li>;
               })}
             </ul>
-            <p class="pt-3 text-sm text-skin-muted">{organization}</p>
+            <p class="pt-3 text-sm text-skin-muted">
+              {organization} | {workStyle}
+            </p>
             <p class="pb-3 pt-1 text-sm text-skin-muted">
               <time datetime={startDate} data-title={startDate}>
                 {startMonth}
