@@ -85,7 +85,7 @@
       --color: 248, 113, 113;
       --color-button-accent: 248, 113, 113;
       --color-button-accent-hover: 220, 50, 70;
-      --color-button-muted: 120, 113, 108; 
+      --color-button-muted: 120, 113, 108;
     }
     [data-theme="green"] {
       --color-text-base: 230, 230, 230;
@@ -109,4 +109,5 @@
       --color-button-accent-hover: 0, 185, 255;
       --color-button-muted: 25, 81, 86;
     }
+  }
 }
