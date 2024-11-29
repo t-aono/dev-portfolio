@@ -103,7 +103,7 @@ const SKILLS_ICONS: Record<string, any> = {
                   {summary && (
                     <div class="flex flex-col gap-1">
                       <h4>概要:</h4>
-                      <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">{Array.isArray(summary) ? summary.map((item) => ({ item })) : <li>{summary}</li>}</ul>
+                      <ul class="flex list-disc flex-col gap-2 text-skin-muted print:ml-4 [&>li]:ml-4">{Array.isArray(summary) ? summary.map((item) => ({ item })) : <li>{summary}</li>}</ul>
                     </div>
                   )}
 
@@ -117,7 +117,7 @@ const SKILLS_ICONS: Record<string, any> = {
                       {responsibilities && (
                         <div class="flex flex-col gap-1">
                           <h4>役割:</h4>
-                          <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
+                          <ul class="flex list-disc flex-col gap-2 text-skin-muted print:ml-4 [&>li]:ml-4">
                             {responsibilities.map((responsibility) => (
                               <li>{responsibility}</li>
                             ))}
@@ -127,7 +127,7 @@ const SKILLS_ICONS: Record<string, any> = {
                       {achievements && (
                         <div class="flex flex-col gap-1">
                           <h4>成果:</h4>
-                          <ul class="flex list-disc flex-col gap-2 text-skin-muted [&>li]:ml-4">
+                          <ul class="flex list-disc flex-col gap-2 text-skin-muted print:ml-4 [&>li]:ml-4">
                             {achievements.map((achievement) => (
                               <li>{achievement}</li>
                             ))}

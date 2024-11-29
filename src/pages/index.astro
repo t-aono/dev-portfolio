@@ -17,17 +17,17 @@ const { name, label } = basics;
 ---
 
 <Layout title={`${name} Portfolio - ${label}`}>
-  <main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6">
-    <div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:grid-cols-2 print:gap-5 print:space-y-0">
+  <main class="relative grid max-w-7xl gap-12 p-8 max-sm:py-16 md:grid-cols-6 md:p-16 xl:gap-24 print:max-w-none print:grid-cols-1 print:gap-6 print:px-16 print:py-8">
+    <div class="space-y-6 md:col-span-2 print:col-span-1 print:grid print:gap-5 print:space-y-0">
       <Hero />
       <About />
       <ThemeSwitch />
     </div>
-    <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid print:grid-cols-4 print:gap-2 print:space-y-0">
-      <Experience className="print:col-span-3" />
-      <Projects className="print:col-span-3" />
+    <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid-cols-4 print:space-y-8">
+      <Experience />
+      <Projects />
       <Development className="print:hidden" />
-      <Skills className="print:col-span-3" />
+      <Skills />
       <!-- <Education className="order-first" /> -->
     </div>
     <Tail />

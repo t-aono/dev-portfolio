@@ -166,7 +166,7 @@
         "keywords": ["Web Development", "Frontend", "Responsive Design"]
       }
     ],
-    "frameworks": [
+    "library": [
       {
         "name": "React",
         "level": "Intermediate",
@@ -183,10 +183,12 @@
         "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
       },
       {
-        "name": "Next.js",
-        "level": "Beginner",
-        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
-      },
+        "name": "Tailwind",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+      }
+    ],
+    "frameworks": [
       {
         "name": "Remix",
         "level": "Beginner",
@@ -194,6 +196,11 @@
       },
       {
         "name": "Astro",
+        "level": "Beginner",
+        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+      },
+      {
+        "name": "Next.js",
         "level": "Beginner",
         "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
       },
@@ -209,16 +216,10 @@
         "level": "Intermediate",
         "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
       },
-
       {
         "name": "MySQL",
         "level": "Intermediate",
         "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
       },
       {
         "name": "Figma",
