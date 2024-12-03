@@ -264,7 +264,7 @@
     {
       "name": "社内向け業務改善システム",
       "description": "開発メンバーとして新規開発、機能改善、リニューアルのプロジェクトに参画",
-      "organization": "(株)Logos&Pathos Consulting ",
+      "organization": "L社（戦略コンサルティング・システム開発）",
       "workStyle": "業務委託",
       "startDate": "2022-03-01",
       "endDate": "2024-11-29",
@@ -273,16 +273,16 @@
     {
       "name": "製造業向け業務支援システム",
       "description": "フロントエンジニアとしてWebアプリのUI構築を担当",
-      "organization": "(株)ギブリー",
+      "organization": "G社（DX事業）",
       "workStyle": "業務委託",
       "startDate": "2024-08-01",
       "endDate": "2024-10-31",
-      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components"]
+      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components, Figma"]
     },
     {
-      "name": "船員労務管理SaaS - Maritime7",
+      "name": "海事産業向けSaaS",
       "description": "フルスタックエンジニアとして労務管理機能の機能改善や新機能実装を担当",
-      "organization": "(株)ZABoooN",
+      "organization": "Z社（海事産業に特化したSaaSの開発・運用）",
       "workStyle": "業務委託",
       "startDate": "2022-12-01",
       "endDate": "2024-01-30",
@@ -291,7 +291,7 @@
     {
       "name": "カーシェアサイト",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
-      "organization": "Ambient Lab(株)",
+      "organization": "A社（DX関連事業）",
       "workStyle": "業務委託",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
@@ -300,7 +300,7 @@
     {
       "name": "一時保育の検索・予約サービス - あすいく",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
-      "organization": "GAOGAO Pte. Ltd.",
+      "organization": "G社（スタートアップスタジオ・DXスタジオ）",
       "workStyle": "業務委託",
       "startDate": "2021-11-01",
       "endDate": "2022-05-31",
@@ -309,7 +309,7 @@
     {
       "name": "ストックフォトサービス",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
-      "organization": "(株)カイカタ",
+      "organization": "K社（マーケティング戦略・マーケティング支援）",
       "workStyle": "業務委託",
       "startDate": "2021-05-01",
       "endDate": "2021-10-30",
@@ -318,7 +318,7 @@
     {
       "name": "Webシステムの受託開発",
       "description": "機能改善や新機能実装を担当",
-      "organization": "(合)DreamLink",
+      "organization": "DreamLink（WEBシステム開発）",
       "workStyle": "正社員",
       "startDate": "2020-05-01",
       "endDate": "2022-03-30",
@@ -327,7 +327,7 @@
     {
       "name": "知的財産管理システム - DBBOY/uni",
       "description": "機能改善や新機能実装を担当",
-      "organization": "SES",
+      "organization": "エージェントグロー（SES事業）",
       "workStyle": "正社員",
       "startDate": "2019-05-01",
       "endDate": "2020-04-29",
@@ -336,7 +336,7 @@
     {
       "name": "SIerの業務系システム",
       "description": "機能改善や新機能実装を担当",
-      "organization": "SES",
+      "organization": "メディアファイブ（SI事業・SES事業）",
       "workStyle": "正社員",
       "startDate": "2017-11-01",
       "endDate": "2019-04-30",
