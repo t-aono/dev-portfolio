@@ -10,49 +10,72 @@ dayjs.extend(duration);
 ---
 
 <Section className={Astro.props.className} title="チーム開発経験">
-  <div class="grid grid-cols-1 gap-3 print:flex print:flex-col">
-    {
-      projects.map(({ description, organization, workStyle, startDate, endDate, highlights, name }, index) => {
-        const startMonth = dayjs(startDate).format("YYYY/MM");
-        const endMonth = dayjs(endDate).format("YYYY/MM");
-        const duration = dayjs.duration(dayjs(endDate).diff(dayjs(startDate)));
-        const period = (duration.years() ? `${duration.years()}年` : "") + (duration.months() + 1) + "ヶ月";
+  <div class="grid gap-5" x-data="{ expanded: false }">
+    <div
+      class="relative grid grid-cols-1 gap-3 max-sm:!h-auto md:after:absolute md:after:bottom-0 md:after:h-12 md:after:w-full md:after:bg-gradient-to-t md:after:from-skin-hue md:after:content-[''] dark:md:after:to-skin-hue/0 print:!h-auto print:gap-2 print:after:hidden"
+      x-bind:class="expanded ? 'after:hidden' : ''"
+      x-show="expanded"
+      x-collapse.min.1160px
+    >
+      {
+        projects.map(({ description, organization, workStyle, startDate, endDate, highlights, name }, index) => {
+          const startMonth = dayjs(startDate).format("YYYY/MM");
+          const endMonth = dayjs(endDate).format("YYYY/MM");
+          const duration = dayjs.duration(dayjs(endDate).diff(dayjs(startDate)));
+          const period = (duration.years() ? `${duration.years()}年` : "") + (duration.months() + 1) + "ヶ月";
 
-        return (
-          <div role="contentinfo" class="grid-span-1 relative flex flex-col rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted">
-            <div class="flex items-center justify-between space-x-[10px]">
-              <div class="flex items-center gap-2">
-                <Folder />
-                <div class="flex items-center gap-[6px]">
-                  <span>
-                    {index + 1}. {name}
-                  </span>
+          return (
+            <div role="contentinfo" class="grid-span-1 relative m-1 flex flex-col rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted">
+              <div class="flex items-center justify-between space-x-[10px]">
+                <div class="flex items-center gap-2">
+                  <Folder />
+                  <div class="flex items-center gap-[6px]">
+                    <span>
+                      {index + 1}. {name}
+                    </span>
+                  </div>
                 </div>
               </div>
+              <p class="py-3 text-sm text-skin-base">{description}</p>
+              <ul class="mt-1 text-sm text-skin-muted">
+                {highlights.map((highlight) => {
+                  return <li>{highlight}</li>;
+                })}
+              </ul>
+              <p class="pt-3 text-sm text-skin-muted">
+                {organization} | {workStyle}
+              </p>
+              <p class="pb-3 pt-1 text-sm text-skin-muted">
+                <time datetime={startDate} data-title={startDate}>
+                  {startMonth}
+                </time>
+                <span>-</span>
+                <time datetime={endDate} data-title={endDate}>
+                  {endMonth}
+                </time>
+                <span> : {period}</span>
+              </p>
             </div>
-            <p class="py-3 text-sm text-skin-base">{description}</p>
-            <ul class="mt-1 text-sm text-skin-muted">
-              {highlights.map((highlight) => {
-                return <li>{highlight}</li>;
-              })}
-            </ul>
-            <p class="pt-3 text-sm text-skin-muted">
-              {organization} | {workStyle}
-            </p>
-            <p class="pb-3 pt-1 text-sm text-skin-muted">
-              <time datetime={startDate} data-title={startDate}>
-                {startMonth}
-              </time>
-              <span>-</span>
-              <time datetime={endDate} data-title={endDate}>
-                {endMonth}
-              </time>
-              <span> : {period}</span>
-            </p>
-          </div>
-        );
-      })
-    }
+          );
+        })
+      }
+    </div>
+    <button x-on:click="expanded = ! expanded" class="group/more flex w-fit cursor-pointer items-center justify-center gap-1.5 text-xs text-skin-muted underline transition-all hover:text-skin-base print:hidden">
+      <span x-text="expanded ? 'Show less' : 'Show more'">Show more</span>
+      <svg
+        class="h-4 w-4 duration-200 ease-out group-hover/more:translate-y-0.5"
+        x-bind:class="{ 'rotate-180': expanded }"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </button>
   </div>
 </Section>
 
