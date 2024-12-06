@@ -103,7 +103,7 @@ const SKILLS_ICONS: Record<string, any> = {
                   {summary && (
                     <div class="flex flex-col gap-1">
                       <h4>概要:</h4>
-                      <ul class="flex list-disc flex-col gap-2 text-skin-muted print:ml-4 [&>li]:ml-4">{Array.isArray(summary) ? summary.map((item) => ({ item })) : <li>{summary}</li>}</ul>
+                      <ul class="flex list-disc flex-col gap-2 text-skin-muted print:ml-4 [&>li]:ml-4">{Array.isArray(summary) ? summary.map((item) => <li>{item}</li>) : <li>{summary}</li>}</ul>
                     </div>
                   )}
 
