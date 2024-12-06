@@ -37,39 +37,39 @@
     {
       "name": "フリーランス",
       "position": "エンジニア",
-      "location_type": "リモート",
+      "location_type": "リモート勤務",
       "location": "",
       "url": "",
       "startDate": "2021-01-01",
       "endDate": null,
-      "summary": "複数のWebアプリやWebサービスの開発プロジェクトに参画。開発メンバーとして設計や実装に携わり、モダンな技術のキャッチアップにも注力。",
-      "responsibilities": ["開発メンバーとして機能の追加や改善", "UIやデータモデルの設計、技術調査", "フロントエンドの実装やバックエンドのAPIの設計、実装"],
+      "summary": ["複数のWebアプリやWebサービスの開発プロジェクトに参画。", "開発メンバーとして設計や実装に携わり、モダンな技術のキャッチアップにも注力。"],
+      "responsibilities": ["フルスタックまたはフロントエンドエンジニアとして機能の追加や改修", "UIの設計や実装、APIの設計や実装、データモデルの設計やFE/BEの繋ぎ込み", "外部サービス連携時の技術調査"],
       "achievements": ["新機能の提供や既存機能の改修による使いやすさの向上"],
       "skills": ["TypeScript", "Angular", "Vue.js", "React", "PHP", "Laravel"]
     },
     {
       "name": "受託開発の会社",
       "position": "エンジニア",
-      "location_type": "オフライン",
+      "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
       "startDate": "2019-01-01",
       "endDate": "2020-12-31",
-      "summary": "クライアントの要望を実現するためのWebアプリ開発",
-      "responsibilities": ["LAMP環境を活用したWebシステムの開発", "要件の検討、画面設計、DB設計"],
-      "achievements": ["オンラインで駐車場管理を行う仕組みをアップデート"],
+      "summary": ["LAMP環境を活用したWebシステムの開発に従事。", "要望のヒアリングから幅広く開発工程を経験。"],
+      "responsibilities": ["Webアプリの新規開発や改修", "要件の検討、画面設計、DB設計"],
+      "achievements": ["機能開発によるクライアントの業務効率化に貢献"],
       "skills": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS"]
     },
     {
       "name": "SESの会社",
       "position": "エンジニア",
-      "location_type": "オフライン",
+      "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
       "startDate": "2017-01-01",
       "endDate": "2018-12-31",
-      "summary": "プログラミングやWeb技術を学びSESの会社に転職。",
-      "responsibilities": ["業務系システムのテストやバグの原因調査", "ドキュメント整備", "プログラムの部分的な改修"],
+      "summary": ["プログラミングやWeb技術を学びSESの会社に転職。", "SIerにて業務系システムの保守業務を経験。"],
+      "responsibilities": ["テストやバグの原因調査", "ドキュメント整備", "プログラムの部分的な改修"],
       "achievements": ["システムの品質向上に貢献"],
       "skills": ["Java", "VBA"]
     },
@@ -277,7 +277,7 @@
       "workStyle": "業務委託",
       "startDate": "2024-08-01",
       "endDate": "2024-10-31",
-      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components, Figma"]
+      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components, Figma, Vitest"]
     },
     {
       "name": "海事産業向けSaaS",
@@ -298,7 +298,7 @@
       "highlights": ["PMと連携を取りながら開発メンバーとして新機能追加や機能改善などを担当", "UIやFunctionの検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python"]
     },
     {
-      "name": "一時保育の検索・予約サービス - あすいく",
+      "name": "一時保育の検索・予約サービス",
       "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
       "organization": "G社（スタートアップスタジオ・DXスタジオ）",
       "workStyle": "業務委託",
