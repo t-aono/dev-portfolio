@@ -36,42 +36,42 @@
   "work": [
     {
       "name": "フリーランス",
-      "position": "エンジニア",
+      "position": "ソフトウェアエンジニア",
       "location_type": "リモート勤務",
       "location": "",
       "url": "",
-      "startDate": "2021-01-01",
+      "startDate": "2022-04-01",
       "endDate": null,
-      "summary": ["複数のWebアプリやWebサービスの開発プロジェクトに参画", "開発メンバーとして設計や実装に携わり、モダンな技術のキャッチアップにも注力"],
+      "summary": ["多様なフレームワークやWeb技術を活用したプロジェクトに携わる", "新規開発から機能改善まで様々な実装を経験"],
       "responsibilities": ["フルスタックまたはフロントエンドエンジニアとして機能の追加や改修", "UIの設計や実装、APIの設計や実装、データモデルの設計やFE/BEの繋ぎ込み", "外部サービス連携時の技術調査"],
-      "achievements": ["新機能の提供や既存機能の改修による使いやすさの向上"],
-      "skills": ["TypeScript", "Angular", "Vue.js", "React", "PHP", "Laravel"]
+      "achievements": ["新機能の提供や既存機能の改修によるサービス価値の向上"],
+      "skills": ["TypeScript", "Angular", "Vue.js", "React", "Node.js", "Firebase", "Laravel", "Next.js"]
     },
     {
-      "name": "受託開発の会社",
-      "position": "エンジニア",
+      "name": "小規模チームでの開発",
+      "position": "ソフトウェアエンジニア",
       "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
-      "startDate": "2019-01-01",
-      "endDate": "2020-12-31",
-      "summary": ["LAMP環境を活用したWebシステムの開発に従事", "要望のヒアリングから幅広く開発工程を経験"],
+      "startDate": "2020-05-01",
+      "endDate": "2022-03-31",
+      "summary": ["フロントエンドとバックエンドの両方に関わりWebアプリに開発への理解を深める", "Webシステムの受託開発の会社にて要望のヒアリングから幅広く開発工程を経験"],
       "responsibilities": ["Webアプリの新規開発や改修", "要件の検討、画面設計、DB設計"],
       "achievements": ["機能開発によるクライアントの業務効率化に貢献"],
-      "skills": ["PHP", "MySQL", "JavaScript", "jQuery", "HTML", "CSS"]
+      "skills": ["PHP", "Laravel", "JavaScript", "jQuery", "HTML", "CSS", "MySQL"]
     },
     {
-      "name": "SESの会社",
-      "position": "エンジニア",
+      "name": "SIerやSES業界",
+      "position": "ソフトウェアエンジニア",
       "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
-      "startDate": "2017-01-01",
-      "endDate": "2018-12-31",
-      "summary": ["プログラミングやWeb技術を学びSESの会社に転職", "SIerにて業務系システムの保守業務を経験"],
+      "startDate": "2017-11-01",
+      "endDate": "2020-04-30",
+      "summary": ["プログラミングやWeb技術を学びSESの会社に転職", "業務系システムの保守や機能改善を経験"],
       "responsibilities": ["テストやバグの原因調査", "ドキュメント整備", "プログラムの部分的な改修"],
       "achievements": ["システムの品質向上に貢献"],
-      "skills": ["Java", "VBA"]
+      "skills": ["Java", "PHP", "JavaScript", "VBA", "MySQL"]
     },
     {
       "name": "製薬会社",
@@ -195,6 +195,11 @@
     ],
     "frameworks": [
       {
+        "name": "Node.js",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+      },
+      {
         "name": "Astro",
         "level": "Beginner",
         "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
@@ -217,9 +222,9 @@
     ],
     "other": [
       {
-        "name": "Node.js",
+        "name": "Firebase",
         "level": "Intermediate",
-        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+        "keywords": ["Web Development", "Backend", "Serverless", "Database"]
       },
       {
         "name": "MySQL",
@@ -267,53 +272,63 @@
   ],
   "projects": [
     {
-      "name": "社内向け業務改善システム",
-      "description": "開発メンバーとして新規開発、機能改善、リニューアルのプロジェクトに参画",
+      "name": "施策進捗管理システム",
+      "description": "エンジニアとして新規機能の開発や既存機能の改修",
       "organization": "L社（戦略コンサルティング・システム開発）",
       "workStyle": "業務委託",
       "startDate": "2022-03-01",
       "endDate": "2024-11-29",
-      "highlights": ["UIやデータモデルの設計や技術調査、フロント側やバッチ処理の実装など", "経験が浅い技術（フレームワーク、ライブラリ、外部API）のキャッチアップ", "TypeScript, Angular, RxJS, Firebase(Google Cloud), Node.js, Sass"]
+      "highlights": [
+        "PM兼エンジニア1名、エンジニア2名のチーム",
+        "UIの構築、BEとの繋ぎ込み、バッチ処理の実装、UIやデータモデルの設計や技術調査",
+        "経験が浅い技術（フレームワーク、ライブラリ、外部API）のキャッチアップ",
+        "TypeScript, Angular, RxJS, Firebase, Node.js, Sass"
+      ]
     },
     {
       "name": "製造業向け業務支援システム",
-      "description": "フロントエンジニアとしてWebアプリのUI構築を担当",
+      "description": "Webアプリの新規開発にフロントエンドエンジニアとして参画",
       "organization": "G社（DX事業）",
       "workStyle": "業務委託",
       "startDate": "2024-08-01",
       "endDate": "2024-10-31",
-      "highlights": ["PMと連携してクライアントの要望を満たすUIを構築", "要件を満たすライブラリの調査や選定", "TypeScript, React, styled-components, Figma, Vite, Vitest"]
+      "highlights": ["PM1名、TL1名、BEエンジニア1名、FEエンジニア1名、FSエンジニア1名のチーム", "PMと連携してクライアントの要望を満たすUIの検討や構築", "ライブラリの調査や選定", "TypeScript, React, Vite, Vitest, Figma"]
     },
     {
       "name": "海事産業向けSaaS",
-      "description": "フルスタックエンジニアとして労務管理機能の機能改善や新機能実装を担当",
+      "description": "フルスタックエンジニアとして労務管理機能の改善や新機能実装",
       "organization": "Z社（海事産業に特化したSaaSの開発・運用）",
       "workStyle": "業務委託",
       "startDate": "2022-12-01",
       "endDate": "2024-01-30",
-      "highlights": ["フロントエンド実装、開発環境の改善、API実装、DB設計", "ビジネスサイドのメンバーからの要望をもとに仕様の検討や提案", "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass"]
+      "highlights": [
+        "PM兼エンジニア1名、FEエンジニア1名、BEエンジニア1名、FSエンジニア2名のチーム",
+        "UI構築、FEとBEの繋ぎ込み、API実装、DB設計、開発ツール導入",
+        "ビジネスサイドのメンバーからの要望をもとに仕様の検討や提案",
+        "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass"
+      ]
     },
     {
       "name": "カーシェアサイト",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
+      "description": "フルスタックエンジニアとして機能改善や新機能実装",
       "organization": "A社（DX関連事業）",
       "workStyle": "業務委託",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": ["PMと連携を取りながら開発メンバーとして新機能追加や機能改善などを担当", "UIやFunctionの検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python"]
+      "highlights": ["PM1名、エンジニア5名のチーム", "UIやFunctionの仕様検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python, Figma"]
     },
     {
       "name": "一時保育の検索・予約サービス",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
+      "description": "フルスタックエンジニアとして機能改善や新機能実装",
       "organization": "G社（スタートアップスタジオ・DXスタジオ）",
       "workStyle": "業務委託",
       "startDate": "2021-11-01",
       "endDate": "2022-05-31",
-      "highlights": ["PM1名、エンジニア3名のチームにフルスタックエンジニアとして参画", "起業家と同じチームとしてMVPの設計と実装", "Laravel, Vue.js, Figma, MySQL, Docker"]
+      "highlights": ["PM1名、エンジニア3名、デザイナー1名のチームにてMVPの設計と実装", "UI構築やAPI実装を担当", "Laravel, Vue.js, Figma, MySQL, Docker"]
     },
     {
       "name": "ストックフォトサービス",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装を担当",
+      "description": "フルスタックエンジニアとして機能改善や新機能実装",
       "organization": "K社（マーケティング戦略・マーケティング支援）",
       "workStyle": "業務委託",
       "startDate": "2021-05-01",
@@ -321,22 +336,22 @@
       "highlights": ["エンジニア3名のチームにフルスタックエンジニアとして参画", "オーナーやメンバーと連携して仕様検討、機能追加、機能改善", "Vue.js, Sass, Laravel, MySQL, Docker"]
     },
     {
-      "name": "Webシステムの受託開発",
+      "name": "駐車場設備メーカー向けのWebシステム",
       "description": "機能改善や新機能実装を担当",
       "organization": "DreamLink（WEBシステム開発）",
       "workStyle": "正社員",
       "startDate": "2020-05-01",
       "endDate": "2022-03-30",
-      "highlights": ["エンジニア2名（社長と自分）で幅広く開発工程を対応", "駐車場機器と連携するWebシステムやイベント管理を行うWebシステムの開発", "Linux, Apache, MySQL, PHP, JavaScript, jQuery, React"]
+      "highlights": ["エンジニア2名（社長と自分）で幅広く開発工程を対応", "駐車場機器と連携するWebシステムの開発", "PHP, MySQL, Linux, Apache, JavaScript, jQuery, React"]
     },
     {
-      "name": "知的財産管理システム - DBBOY/uni",
+      "name": "知的財産管理システム",
       "description": "機能改善や新機能実装を担当",
       "organization": "エージェントグロー（SES事業）",
       "workStyle": "正社員",
       "startDate": "2019-05-01",
       "endDate": "2020-04-29",
-      "highlights": ["エンジニア4名のチームにて設計、実装、テストなどを担当", "設計書、テスト仕様書などのドキュメント作成や整備", "Linux, Apache, MySQL, PHP, JavaScript"]
+      "highlights": ["エンジニア4名のチームにて設計、実装、テストなどを担当", "設計書、テスト仕様書などのドキュメント作成や整備", "PHP, MySQL, Linux, Apache, JavaScript"]
     },
     {
       "name": "SIerの業務系システム",
