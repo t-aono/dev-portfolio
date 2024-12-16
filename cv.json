@@ -42,8 +42,8 @@
       "url": "",
       "startDate": "2022-04-01",
       "endDate": null,
-      "summary": ["多様なフレームワークやWeb技術を活用したプロジェクトに携わる", "新規開発から機能改善まで様々な実装を経験"],
-      "responsibilities": ["フルスタックまたはフロントエンドエンジニアとして機能の追加や改修", "UIの設計や実装、APIの設計や実装、データモデルの設計やFE/BEの繋ぎ込み", "外部サービス連携時の技術調査"],
+      "summary": ["サービス業、製造業、海事産業など多様な業界のシステム開発に従事", "機能実装や改修の業務に加えて新しい技術のキャッチアップにも注力"],
+      "responsibilities": ["フロントエンドとバックエンドの垣根を問わず柔軟に対応", "UIの設計や構築、APIの設計や実装、データモデル設計、フロントとバックの繋ぎ込み", "外部サービスとの連携や技術調査"],
       "achievements": ["新機能の提供や既存機能の改修によるサービス価値の向上"],
       "skills": ["TypeScript", "Angular", "Vue.js", "React", "Node.js", "Firebase", "Laravel", "Next.js"]
     },
@@ -55,10 +55,10 @@
       "url": "",
       "startDate": "2020-05-01",
       "endDate": "2022-03-31",
-      "summary": ["フロントエンドとバックエンドの両方に関わりWebアプリに開発への理解を深める", "Webシステムの受託開発の会社にて要望のヒアリングから幅広く開発工程を経験"],
-      "responsibilities": ["Webアプリの新規開発や改修", "要件の検討、画面設計、DB設計"],
+      "summary": ["Webシステムの受託開発の会社にてヒアリングから保守まで幅広く開発工程を経験", "3~6名のチームでスピード感のあるアジャイル開発を経験"],
+      "responsibilities": ["Webアプリケーションの新規開発と機能改善", "要件やUIの検討、DBのテーブルやデータモデルの設計"],
       "achievements": ["機能開発によるクライアントの業務効率化に貢献"],
-      "skills": ["PHP", "Laravel", "JavaScript", "jQuery", "HTML", "CSS", "MySQL"]
+      "skills": ["PHP", "Laravel", "JavaScript", "jQuery", "Vue.js", "HTML", "CSS", "MySQL"]
     },
     {
       "name": "SIerやSES業界",
@@ -68,7 +68,7 @@
       "url": "",
       "startDate": "2017-11-01",
       "endDate": "2020-04-30",
-      "summary": ["プログラミングやWeb技術を学びSESの会社に転職", "業務系システムの保守や機能改善を経験"],
+      "summary": ["プログラミングやWeb技術を学びSESの会社に転職", "大規模な業務系システムの保守や機能改善を経験"],
       "responsibilities": ["テストやバグの原因調査", "ドキュメント整備", "プログラムの部分的な改修"],
       "achievements": ["システムの品質向上に貢献"],
       "skills": ["Java", "PHP", "JavaScript", "VBA", "MySQL"]
@@ -273,14 +273,14 @@
   "projects": [
     {
       "name": "施策進捗管理システム",
-      "description": "エンジニアとして新規機能の開発や既存機能の改修",
+      "description": "エンジニアとして新機能の実装や既存機能の改善に従事",
       "organization": "L社（戦略コンサルティング・システム開発）",
       "workStyle": "業務委託",
       "startDate": "2022-03-01",
       "endDate": "2024-11-29",
       "highlights": [
         "PM兼エンジニア1名、エンジニア2名のチーム",
-        "UIの構築、BEとの繋ぎ込み、バッチ処理の実装、UIやデータモデルの設計や技術調査",
+        "UIの構築、BEとの繋ぎ込み、バッチ処理の実装、データモデルの設計、技術調査",
         "経験が浅い技術（フレームワーク、ライブラリ、外部API）のキャッチアップ",
         "TypeScript, Angular, RxJS, Firebase, Node.js, Sass"
       ]
@@ -304,36 +304,36 @@
       "highlights": [
         "PM兼エンジニア1名、FEエンジニア1名、BEエンジニア1名、FSエンジニア2名のチーム",
         "UI構築、FEとBEの繋ぎ込み、API実装、DB設計、開発ツール導入",
-        "ビジネスサイドのメンバーからの要望をもとに仕様の検討や提案",
+        "ビジネスチームの要件に基づいて仕様の検討や提案",
         "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass"
       ]
     },
     {
       "name": "カーシェアサイト",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装",
+      "description": "エンジニアとして既存機能の改善や新機能の開発を担当",
       "organization": "A社（DX関連事業）",
       "workStyle": "業務委託",
       "startDate": "2022-06-01",
       "endDate": "2022-11-01",
-      "highlights": ["PM1名、エンジニア5名のチーム", "UIやFunctionの仕様検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python, Figma"]
+      "highlights": ["PM1名、エンジニア5名のチーム", "UIやAPIの検討や設計、実装", "TypeScript, Next.js, MUI, AWS(Amplify, Lambda), GraphQL, Python, Figma"]
     },
     {
       "name": "一時保育の検索・予約サービス",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装",
+      "description": "エンジニアとして既存機能の改善や新機能の開発を担当",
       "organization": "G社（スタートアップスタジオ・DXスタジオ）",
       "workStyle": "業務委託",
       "startDate": "2021-11-01",
       "endDate": "2022-05-31",
-      "highlights": ["PM1名、エンジニア3名、デザイナー1名のチームにてMVPの設計と実装", "UI構築やAPI実装を担当", "Laravel, Vue.js, Figma, MySQL, Docker"]
+      "highlights": ["PM兼エンジニア1名、エンジニア3名、デザイナー1名のチーム", "MVPのUI構築やAPI実装を担当", "Laravel, Vue.js, Figma, MySQL, Docker"]
     },
     {
       "name": "ストックフォトサービス",
-      "description": "フルスタックエンジニアとして機能改善や新機能実装",
+      "description": "エンジニアとして既存機能の改善や新機能の開発を担当",
       "organization": "K社（マーケティング戦略・マーケティング支援）",
       "workStyle": "業務委託",
       "startDate": "2021-05-01",
       "endDate": "2021-10-30",
-      "highlights": ["エンジニア3名のチームにフルスタックエンジニアとして参画", "オーナーやメンバーと連携して仕様検討、機能追加、機能改善", "Vue.js, Sass, Laravel, MySQL, Docker"]
+      "highlights": ["PO兼PM1名、エンジニア3名のチーム", "プロダクトオーナーやメンバーと連携して仕様検討、機能追加、機能改善", "Vue.js, Sass, Laravel, MySQL, Docker"]
     },
     {
       "name": "駐車場設備メーカー向けのWebシステム",
