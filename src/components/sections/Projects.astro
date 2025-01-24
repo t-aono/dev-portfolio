@@ -12,7 +12,7 @@ dayjs.extend(duration);
 <Section className={Astro.props.className} title="チーム開発経験">
   <div class="grid gap-5" x-data="{ expanded: false }">
     <div
-      class="relative grid grid-cols-1 gap-3 max-sm:!h-auto md:after:absolute md:after:bottom-0 md:after:h-12 md:after:w-full md:after:bg-gradient-to-t md:after:from-skin-hue md:after:content-[''] dark:md:after:to-skin-hue/0 print:!h-auto print:gap-2 print:after:hidden"
+      class="relative grid grid-cols-1 gap-3 after:absolute after:bottom-0 after:h-12 after:w-full after:bg-gradient-to-t after:from-skin-hue after:content-[''] dark:after:to-skin-hue/0 print:!h-auto print:gap-2 print:after:hidden"
       x-bind:class="expanded ? 'after:hidden' : ''"
       x-show="expanded"
       x-collapse.min.1260px
