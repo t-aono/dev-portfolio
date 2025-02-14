@@ -6,7 +6,9 @@
     "email": "info@t-aono.net",
     "phone": "",
     "url": "https://johndoe.dev",
-    "summary": "フリーランスのエンジニアとしてWebアプリケーション開発に携わっています。開発チームに所属して、設計・実装・技術調査などを担当しています。最近では、サービス業や製造業向けの業務支援システムの開発チームに参加しました。個人プロジェクトとして小規模なWebアプリの開発にも取り組んでいます。これまでの開発経験を活かし、クライアントの課題解決に貢献していきたいです。",
+    "summary": "エンジニアとしてWebアプリ開発に携わっています。フリーランスとして活動しており TypeScript をよく使います。",
+    "current": "UIライブラリを用いたフロントエンドの構築やバックエンドとの繋ぎ込み部分を担当することが多いです。週2.5日（80h/月）ほど稼働しています。追加で週2〜3日（80h/月）程度で参画可能な案件を探しています。",
+    "desire": "フロントエンドからバックエンドまで幅広く対応できるエンジニアを目指しています。少人数チームでアジャイルな開発を進めながら、個人の裁量を活かして新しい技術にも積極的にチャレンジできる環境を求めています。",
     "theme": "blue",
     "location": {
       "address": "",
@@ -36,7 +38,7 @@
   "work": [
     {
       "name": "フリーランス",
-      "position": "ソフトウェアエンジニア",
+      "position": "フルスタック・フロントエンド エンジニア",
       "location_type": "リモート勤務",
       "location": "",
       "url": "",
@@ -49,7 +51,7 @@
     },
     {
       "name": "小規模チームでの開発",
-      "position": "ソフトウェアエンジニア",
+      "position": "バックエンド・フルスタック エンジニア",
       "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
@@ -62,7 +64,7 @@
     },
     {
       "name": "SIerやSES業界",
-      "position": "ソフトウェアエンジニア",
+      "position": "テスター／プログラマー",
       "location_type": "オフィス勤務",
       "location": "福岡市",
       "url": "",
@@ -136,138 +138,6 @@
       "date": "2023-05-01",
       "issuer": "Online University",
       "url": "https://onlineuniversity.com/certificates/fullstack"
-    }
-  ],
-  "skills": {
-    "programmingLanguages": [
-      {
-        "name": "TypeScript",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
-      },
-      {
-        "name": "PHP",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Backend", "Server"]
-      },
-      {
-        "name": "HTML",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend"]
-      },
-      {
-        "name": "CSS",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "Responsive Design"]
-      }
-    ],
-    "library": [
-      {
-        "name": "Svelte",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-      },
-      {
-        "name": "React",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-      },
-      {
-        "name": "Angular",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-      },
-      {
-        "name": "Vue.js",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
-      }
-    ],
-    "frameworks": [
-      {
-        "name": "Node.js",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
-      },
-      {
-        "name": "Astro",
-        "level": "Beginner",
-        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
-      },
-      {
-        "name": "Remix",
-        "level": "Beginner",
-        "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
-      },
-      {
-        "name": "Next.js",
-        "level": "Beginner",
-        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
-      },
-      {
-        "name": "Laravel",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Backend", "Server"]
-      }
-    ],
-    "other": [
-      {
-        "name": "Firebase",
-        "level": "Intermediate",
-        "keywords": ["Web Development", "Backend", "Serverless", "Database"]
-      },
-      {
-        "name": "MySQL",
-        "level": "Intermediate",
-        "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
-      },
-      {
-        "name": "Figma",
-        "level": "Expert",
-        "keywords": ["Design", "UI"]
-      },
-      {
-        "name": "Git",
-        "level": "Intermediate",
-        "keywords": ["Version Control", "Collaboration", "Source Code"]
-      },
-      {
-        "name": "GitHub",
-        "level": "Intermediate",
-        "keywords": ["Version Control", "Collaboration", "Source Code"]
-      }
-    ]
-  },
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Spanish",
-      "fluency": "Intermediate"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": ["AI", "Blockchain"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Smith",
-      "reference": "Reference…"
     }
   ],
   "projects": [
@@ -403,6 +273,139 @@
       "highlights": [],
       "url": "https://ossified-elephant-7c0.notion.site/4098f3588edd4490b70355ad5e568d46?pvs=4",
       "github": ""
+    }
+  ],
+  "skillDescription": "TypeScript, JavaScript, PHP を利用した開発が得意です。それぞれの経験年数は TypeScriptが4年、JavaScriptが7年、PHPが5年くらいです。",
+  "skills": {
+    "programmingLanguages": [
+      {
+        "name": "TypeScript",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "Backend", "JavaScript Superset"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+      },
+      {
+        "name": "PHP",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Backend", "Server"]
+      },
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend"]
+      },
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "Responsive Design"]
+      }
+    ],
+    "library": [
+      {
+        "name": "Svelte",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "React",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Angular",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Vue.js",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Frontend", "CSS Framework", "Responsive Design"]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "Node.js",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+      },
+      {
+        "name": "Astro",
+        "level": "Beginner",
+        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+      },
+      {
+        "name": "Remix",
+        "level": "Beginner",
+        "keywords": ["Web Development", "Frontend", "React Framework", "SSR"]
+      },
+      {
+        "name": "Next.js",
+        "level": "Beginner",
+        "keywords": ["Web Development", "Frontend", "React Framework", "SSR", "Static Generation"]
+      },
+      {
+        "name": "Laravel",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Backend", "Server"]
+      }
+    ],
+    "other": [
+      {
+        "name": "Firebase",
+        "level": "Intermediate",
+        "keywords": ["Web Development", "Backend", "Serverless", "Database"]
+      },
+      {
+        "name": "MySQL",
+        "level": "Intermediate",
+        "keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+      },
+      {
+        "name": "Figma",
+        "level": "Expert",
+        "keywords": ["Design", "UI"]
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "keywords": ["Version Control", "Collaboration", "Source Code"]
+      },
+      {
+        "name": "GitHub",
+        "level": "Intermediate",
+        "keywords": ["Version Control", "Collaboration", "Source Code"]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": ["AI", "Blockchain"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Smith",
+      "reference": "Reference…"
     }
   ]
 }

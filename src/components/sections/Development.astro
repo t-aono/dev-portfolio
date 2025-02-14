@@ -7,7 +7,7 @@ import Folder from "@/icons/Folder.astro";
 import { developments } from "@cv";
 ---
 
-<Section className={Astro.props.className} title="開発事例">
+<Section className={Astro.props.className} title="個人での開発事例">
   <div class="grid grid-cols-1 gap-3 md:grid-cols-2 print:flex print:flex-col">
     {
       developments.map(({ url, description, highlights, name, isActive, github }) => {
