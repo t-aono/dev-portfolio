@@ -25,7 +25,7 @@ import AstroLogo from "@/icons/AstroLogo.astro";
 import Remix from "@/icons/remix.astro";
 import Svelte from "@/icons/svelte.astro";
 import Firebase from "@/icons/firebase.astro";
-import { skills, skillDescription } from "@cv";
+import { skills, skillSummary } from "@cv";
 
 const SKILLS_ICONS: Record<string, any> = {
   HTML,
@@ -57,7 +57,7 @@ const SKILLS_ICONS: Record<string, any> = {
 ---
 
 <Section className={Astro.props.className} title="スキル">
-  <p class="mb-4 max-w-[35rem] px-2 leading-relaxed">{skillDescription}</p>
+  <p class="mb-4 max-w-[35rem] px-2 leading-relaxed">{skillSummary}</p>
   {
     Object.values(skills).map((group) => (
       <ul class="mb-4 inline-flex flex-wrap gap-6 [&>li>svg]:size-5 [&>li>svg]:text-skin-hue [&>li]:text-sm">

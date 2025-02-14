@@ -6,8 +6,8 @@
     "email": "info@t-aono.net",
     "phone": "",
     "url": "https://johndoe.dev",
-    "summary": "エンジニアとしてWebアプリ開発に携わっています。フリーランスとして活動しており TypeScript をよく使います。",
-    "current": "UIライブラリを用いたフロントエンドの構築やバックエンドとの繋ぎ込み部分を担当することが多いです。週2.5日（80h/月）ほど稼働しています。追加で週2〜3日（80h/月）程度で参画可能な案件を探しています。",
+    "summary": "フリーランスのエンジニアとしてWebアプリ開発に携わっており、主にTypeScriptを使用しています。",
+    "current": "UIライブラリを活用したフロントエンドの構築や、バックエンドとの連携部分を担当することが多いです。現在は週2.5日（約80時間/月）稼働しており、追加で週2〜3日（同80時間/月）程度で参画可能な案件を探しています。",
     "desire": "フロントエンドからバックエンドまで幅広く対応できるエンジニアを目指しています。少人数チームでアジャイルな開発を進めながら、個人の裁量を活かして新しい技術にも積極的にチャレンジできる環境を求めています。",
     "theme": "blue",
     "location": {
@@ -275,7 +275,7 @@
       "github": ""
     }
   ],
-  "skillDescription": "TypeScript, JavaScript, PHP を利用した開発が得意です。それぞれの経験年数は TypeScriptが4年、JavaScriptが7年、PHPが5年くらいです。",
+  "skillSummary": "TypeScript、JavaScript、PHP を用いた開発が得意です。それぞれの経験年数は TypeScript が4年、JavaScript が7年、PHP が5年ほどです。",
   "skills": {
     "programmingLanguages": [
       {
