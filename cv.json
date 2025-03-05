@@ -38,7 +38,7 @@
   "work": [
     {
       "name": "フリーランス",
-      "position": "フルスタック・フロントエンド エンジニア",
+      "position": "フロントエンド・バックエンドエンジニア",
       "location_type": "リモート勤務",
       "location": "",
       "url": "",
@@ -166,13 +166,13 @@
     },
     {
       "name": "海事産業向けSaaS",
-      "description": "フルスタックエンジニアとして労務管理機能の改善や新機能実装",
+      "description": "フロントエンド・バックエンドエンジニアとして労務管理機能の改善や新機能実装",
       "organization": "Z社（海事産業に特化したSaaSの開発・運用）",
       "workStyle": "業務委託",
       "startDate": "2022-12-01",
       "endDate": "2024-01-30",
       "highlights": [
-        "PM兼エンジニア1名、FEエンジニア1名、BEエンジニア1名、FSエンジニア2名のチーム",
+        "PM兼エンジニア1名、FEエンジニア1名、BEエンジニア1名、FE&BEエンジニア2名のチーム",
         "UI構築、FEとBEの繋ぎ込み、API実装、DB設計、開発ツール導入",
         "ビジネスチームの要件に基づいて仕様の検討や提案",
         "Vue.js, Vuex ORM, TypeScript, Laravel, MySQL, Buefy, Sass"
