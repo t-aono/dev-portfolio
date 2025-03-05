@@ -11,7 +11,6 @@ import Tail from "@/components/sections/Tail.astro";
 import KeyboardManager from "@/components/KeyboardManager.astro";
 import ThemeSwitch from "@/components/ThemeSwitch.astro";
 import Projects from "@/components/sections/Projects.astro";
-import WorkStyle from "@/components/sections/WorkStyle.astro";
 
 import { basics } from "@cv";
 const { name, label } = basics;
@@ -25,7 +24,6 @@ const { name, label } = basics;
       <ThemeSwitch />
     </div>
     <div class="space-y-12 md:col-span-4 print:col-span-1 print:grid-cols-4 print:space-y-8">
-      <WorkStyle />
       <Experience />
       <Projects />
       <Development className="print:hidden" />

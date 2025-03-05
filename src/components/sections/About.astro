@@ -2,11 +2,17 @@
 import Section from "../Section.astro";
 
 import { basics } from "@cv";
-const { summary } = basics;
+const { summary, current, desire } = basics;
 ---
 
-<Section title="自己紹介">
-  <p class="max-w-[35rem] leading-relaxed">
+<Section title="自己紹介" class="max-w-[35rem] leading-relaxed">
+  <p>
     {summary}
+  </p>
+  <p>
+    {current}
+  </p>
+  <p>
+    {desire}
   </p>
 </Section>
